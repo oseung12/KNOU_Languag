@@ -1,4 +1,4 @@
-#include <iostream>			//c++ 표준 헤더파일 소스 프로그램에 결합(#include)한다.
+#include <iostream>			// C++ 표준 헤더파일 소스 프로그램에 결합(#include)한다.
 using namespace std;		// using구문을 사용하여 std 명칭공간을 지정하지 않고 사용할 수 있다.
 
 int main()					// 함수의 머리부. main()함수: 프로그램의 시작점
@@ -13,7 +13,7 @@ int main()					// 함수의 머리부. main()함수: 프로그램의 시작점
 			max = data[i];				// max를 i번 데이터로 변경한다.
 	}
 	cout << endl << endl;				// 줄바꿈
-	cout << "배열의 최댓값 : " << max << endl; //표준 출력 스트림을 사용하여 max 값을 출력한다.
+	cout << "배열의 최댓값 : " << max << endl; // 표준 출력 스트림을 사용하여 max 값을 출력한다.
 
 	return 0;							// 현재 실행중인 함수를 종료한다.
 }
